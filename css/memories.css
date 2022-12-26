@@ -215,6 +215,16 @@
 	left:30%;
 	animation:btn1 15s;
 }
+.button-style-m02 {
+	position:absolute;
+	top:91%;
+	opacity:1;
+	z-index:100;
+	position:absolute;
+	left:30%;
+	animation:btn1 15s;
+}
+
 
 @keyframes btn1 {/*这里是对动画的定义，我们只需要定义几个关键帧，它会自动完成补间。*/
 	0% {
