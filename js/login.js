@@ -2,16 +2,7 @@ $('#login-button').click(function (event) {
   var userName = document.getElementById("userName").value;
   var pwd = document.getElementById("pwd").value;
   //修改密码请改此处
-  if (userName == "黄楠" && pwd == "19991215") {
-    event.preventDefault();
-    $('form').fadeOut(500);
-    $('.wrapper').addClass('form-success');
-    requestFullScreen();
-    setTimeout(function () {
-      location.href = "BirthdayCake.html";
-    }, 2000);
-  }
-  else if (userName == "李孟德" && pwd == "1999") {
+  if (userName == "廖栩艺" && pwd == "19991210") {
     event.preventDefault();
     $('form').fadeOut(500);
     $('.wrapper').addClass('form-success');
